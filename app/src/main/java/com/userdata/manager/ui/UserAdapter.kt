@@ -11,14 +11,11 @@ import com.userdata.manager.databinding.ItemUserBinding
 import androidx.core.graphics.toColorInt
 
 class UserAdapter(
-
     private val onClick: (UserEntity) -> Unit,
     private val onDelete: (UserEntity) -> Unit,
     private val onSelectionChanged: (Int) -> Unit
 
-) : ListAdapter<UserEntity, UserAdapter.UserViewHolder>(
-    DiffCallback()
-) {
+) : ListAdapter<UserEntity, UserAdapter.UserViewHolder>(DiffCallback()) {
     private val selectedItems = mutableSetOf<Int>()
 
     inner class UserViewHolder(
