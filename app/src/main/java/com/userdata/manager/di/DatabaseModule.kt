@@ -29,15 +29,10 @@ object DatabaseModule {
         ).build()
     }
 
-   /* fun provideDao(db: UserDatabase): UserDao{
-        return db.userDao()
-    }*/
-
     @Provides
     fun provideUserDao(
         database: UserDatabase
     ): UserDao {
-
         return database.userDao()
     }
 }

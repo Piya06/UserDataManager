@@ -26,8 +26,6 @@ class UserRepository @Inject constructor(
     fun searchUsers(query: String): LiveData<List<UserEntity>> {
         return dao.searchUsers(query)
     }
-  //  fun searchUsers(query: String) = dao.searchUsers(query)
-
     suspend fun deleteMultiple(ids: List<Int>){
         dao.deleteMultiple(ids)
     }
