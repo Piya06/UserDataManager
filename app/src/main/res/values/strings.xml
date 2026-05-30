@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UserDataManager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_user">Add User</string>
+    <string name="delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="search">Search</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="edit">edit</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="save_user">Save User</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_updated_successfully">User Updated Successfully</string>
+    <string name="user_added_successfully">User Added Successfully</string>
+    <string name="name_can_not_be_empty">Name can not be empty</string>
+    <string name="address_cannot_be_empty">Address cannot be empty</string>
+    <string name="phone_number_cannot_be_empty">Phone number cannot be empty</string>
+    <string name="phone_number_must_be_10_digits">Phone number must be 10 digits</string>
+    <string name="search_by_name_or_phone">Search by name or phone</string>
+    <string name="enter_user_details_below">Enter user details below</string>
+    <string name="edit_user">Edit User</string>
+    <string name="update_user">Update User</string>
+</resources>
